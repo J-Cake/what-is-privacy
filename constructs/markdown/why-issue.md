@@ -1,0 +1,3 @@
+# What makes it an issue
+
+Privacy is simply a state of not being observed. It can come in many forms such as closing the door when you go to the toilet, or not telling people you met at your cousin's wedding that your best friend is a pebble. Privacy becomes important when dealing with large amounts of information in a public context. Like water, information will flow and reach everywhere it can go, once there, it can cause damage. While water damage can be repaired, informational damage cannot as the internet prohibits things from truly disappearing^[4][5]^. The damage will most likely be cybercrime related such as identity theft or intellectual property theft.
