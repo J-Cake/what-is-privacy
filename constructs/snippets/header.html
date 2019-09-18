@@ -1,0 +1,26 @@
+<header class="header">
+    <!-- <img src="/res/logo.png" /> -->
+    <nav class="links">
+        <a href='/'>Start</a>
+        <a href='/what'>What Is Privacy</a>
+        <a href='/why-issue'>What Makes It An Issue</a>
+        <a href='/why'>Why Is It Important</a>
+        <a href='/why-me'>Why Is It Important To Me</a>
+        <a href='/how'>How Can I Protect Myself?</a>
+        <a href='/who'>Who Is Affected?</a>
+    </nav>
+    <svg viewBox="0 0 16 16" width="16" height="16" class="collapse">
+		<line id="stroke1" strokeWeight="2px" stroke="#355" x1="0" x2="16" y1="5" y2="5"/>
+		<line id="stroke2" strokeWeight="2px" stroke="#355" x1="0" x2="16" y1="11" y2="11"/>
+	</svg>
+    <span id="thiccc"></span>
+</header>
+
+<script>
+    const bean = $(".collapse");
+    const links = $(".links");
+    bean.click(function() {
+        bean.toggleClass("open");
+        links.toggleClass("open");
+    })
+</script>

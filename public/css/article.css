@@ -1,0 +1,98 @@
+article {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: justify;
+    line-height: 1.65em;
+    color: #446;
+    height: auto !important;
+    padding-bottom: 51px;
+    overflow: hidden !important;
+}
+
+article h1,
+article h2,
+article h3 {
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.75em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.25em;
+}
+
+.background-img {
+    height: 200px;
+    display: block;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    display: none;
+    margin-top: calc(1em + 20px);
+}
+
+.background-img:before {
+    filter: blur(5px) brightness(0.5);
+    position: absolute;
+    content: '';
+    overflow: hidden;
+    
+    background-position: center;
+    
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    margin-left: -5px;
+    margin-top: -5px;
+}
+
+.background-img img {
+    height: 200%;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    width: auto;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+article ins {
+    display: none;
+}
+
+article a {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 1.2em;
+    height: auto;
+    box-sizing: border-box;
+    display: block;
+    color: #355;
+    text-decoration: none;
+    margin-left: 25px;
+    border: 1.5px solid transparent;
+}
+
+article a:hover {
+    border-bottom: 1.5px solid #355;
+}
+
+.tooltip {
+    position: fixed;
+    background: #fff;
+    color: #777;
+    box-shadow: 0 0 3px 0 #446;
+    border-radius: 4px;
+    max-width: 350px;
+    padding: 5px 10px;
+    line-height: 15pt;
+    font-size: 11pt;
+    opacity: 0.8;
+    backdrop-filter: blur(4px);
+}
