@@ -30,7 +30,7 @@ http.ServerResponse.prototype.doNotEnd = function () {
 	// console.log(this.suppressEnd);
 };
 
-process.port = Number(process.argv[2]) || 1080;
+process.port = process.env.PORT || Number(process.argv[2]) || 1080;
 
 process.root = __dirname.replace(/\\/g, "/"); // specifies where the server is started from (/)
 
